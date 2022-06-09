@@ -1,8 +1,8 @@
 apiVersion: v2
 name: continuous-delivery
-description: A Helm chart for twitter tweets service
+description: A Helm chart for simple continuous delivery app
 
-home: https://github.com/stakkato95/service-engineering-simple-twitter
+home: https://github.com/stakkato95/continuous-delivery-go
 
 maintainers:
   - name: Artsiom Kaliaha
@@ -11,7 +11,7 @@ maintainers:
 type: application
 
 # Chart version. Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.0
+version: 0.1.1
 
 # Application version
 appVersion: "0.1.0"
