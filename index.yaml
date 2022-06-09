@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  continuous-delivery:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-06-09T18:39:05.228935401Z"
+    description: A Helm chart for twitter tweets service
+    digest: 20e9145cf0c83ff127e945072e08c48c4af4310d523f1167864d319874d62ef3
+    home: https://github.com/stakkato95/service-engineering-simple-twitter
+    maintainers:
+    - email: stakkato95@gmail.com
+      name: Artsiom Kaliaha
+    name: continuous-delivery
+    type: application
+    urls:
+    - https://github.com/stakkato95/continuous-delivery-go-helm/releases/download/continuous-delivery-0.1.0/continuous-delivery-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-09T18:39:05.228941301Z"
