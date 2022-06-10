@@ -12,5 +12,8 @@ service:
     name: http
     port: 80
 
+postgres_service:
+  name: postgresql
+
 ingress:
   enabled: true
