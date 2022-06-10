@@ -14,6 +14,10 @@ spec:
       labels:
         {{- include "helm.selectorLabels" . | nindent 8 }}
     spec:
+      volumes:
+        - name: app-env-config
+          configMap:
+            name: app-env
       containers:
         - name: {{ .Chart.Name }}-container
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
@@ -31,3 +35,8 @@ spec:
             - name: {{ .Values.service.http.name }}-container
               containerPort: 8010
               protocol: TCP
+          volumeMounts:
+          - name: app-env-config
+            mountPath: "/config"
+            readOnly: true
+        
