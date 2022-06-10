@@ -3,6 +3,20 @@ entries:
   continuous-delivery:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2022-06-10T13:08:43.621629639Z"
+    description: A Helm chart for simple continuous delivery app
+    digest: 2141c2cfe708fd8339553952c1a0e772cc0e943bc9feb2d4bd0a63df34684372
+    home: https://github.com/stakkato95/continuous-delivery-go
+    maintainers:
+    - email: stakkato95@gmail.com
+      name: Artsiom Kaliaha
+    name: continuous-delivery
+    type: application
+    urls:
+    - https://github.com/stakkato95/continuous-delivery-go-helm/releases/download/continuous-delivery-0.1.9/continuous-delivery-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2022-06-10T12:40:39.179758718Z"
     description: A Helm chart for simple continuous delivery app
     digest: d17cef93261818e8b06e7b5057d2bcad27ab6880b21286e1f919cf433dde5e37
@@ -127,4 +141,4 @@ entries:
     urls:
     - https://github.com/stakkato95/continuous-delivery-go-helm/releases/download/continuous-delivery-0.1.0/continuous-delivery-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-10T12:40:39.179805538Z"
+generated: "2022-06-10T13:08:43.621665639Z"
