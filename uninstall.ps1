@@ -1,2 +1,2 @@
-helm uninstall postgres
+helm uninstall postgresql
 helm uninstall app
