@@ -12,8 +12,10 @@ service:
     name: http
     port: 80
 
-postgres_service:
-  name: postgresql
-
 ingress:
   enabled: true
+
+# values below can be overwritten in parent chart value file
+global:
+  postgres_service:
+    name: postgresql
